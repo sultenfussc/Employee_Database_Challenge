@@ -1,9 +1,7 @@
 -- * Create a table schema for each of the six CSV files. 
 -- * Specify data types, primary keys, foreign keys, and other constraints.
 -- * For the primary keys, verify that the column is unique. 
--- * Otherwise, create a [composite key](https://en.wikipedia.org/wiki/Compound_key), 
---   which takes two primary keys to uniquely identify a row.
--- * Be sure to create tables in the correct order to handle foreign keys.
+-- * Create tables in the correct order to handle foreign keys.
 -- * Import each CSV file into the corresponding SQL table.
 _____________________________________________________________________________________ 
 -- Drop table if exists
