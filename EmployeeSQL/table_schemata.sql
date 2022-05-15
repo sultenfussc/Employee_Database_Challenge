@@ -69,7 +69,6 @@ CREATE TABLE titles (
 	PRIMARY KEY (title_id)
 );
 
-
 -- Import data from departments.csv
 -- View the table to ensure all data has been imported correctly
 SELECT * FROM departments
