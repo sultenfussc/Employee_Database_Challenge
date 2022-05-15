@@ -3,7 +3,7 @@
 -- * For the primary keys, verify that the column is unique. 
 -- * Create tables in the correct order to handle foreign keys.
 -- * Import each CSV file into the corresponding SQL table.
-_____________________________________________________________________________________ 
+
 -- Drop table if exists
 DROP TABLE departments;
 
@@ -68,7 +68,8 @@ CREATE TABLE titles (
 	title VARCHAR(30) NOT NULL,
 	PRIMARY KEY (title_id)
 );
-_________________________________________________________________________________
+
+
 -- Import data from departments.csv
 -- View the table to ensure all data has been imported correctly
 SELECT * FROM departments
